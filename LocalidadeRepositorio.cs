@@ -17,6 +17,9 @@ namespace WebApi_Localidades.Models
             Add(new Localidade { Id = 3, Cidade = "RIO", Nome = "Rio de Janeiro, Galeão" });
             Add(new Localidade { Id = 4, Cidade = "RIO", Nome = "Rio de Janeiro, NovoRio" });
             Add(new Localidade { Id = 5, Cidade = "RIO", Nome = "Rio de Janeiro, Barra da Tijuca" });
+            Add(new Localidade { Id = 6, Cidade = "SAO", Nome = "São Paulo" });
+            Add(new Localidade { Id = 7, Cidade = "SAO", Nome = "São Paulo, Congonhas" });
+            Add(new Localidade { Id = 7, Cidade = "SAO", Nome = "São Paulo, Guarulhos" });
         }
 
         public Localidade Add(Localidade item)
